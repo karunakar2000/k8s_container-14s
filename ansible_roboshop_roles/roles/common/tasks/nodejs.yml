@@ -12,5 +12,3 @@
 - name: install dependencies
   community.general.npm:
     path: /app
-  tags:
-  - deployment
