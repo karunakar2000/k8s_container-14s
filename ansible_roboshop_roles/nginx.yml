@@ -4,6 +4,6 @@
   tasks:
   - name: Nginx Installing 
     ansible.builtin.dnf:
-      name: mgimx
+      name: nginx
       state: latest
       
